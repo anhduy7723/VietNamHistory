@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="606.0" prefWidth="745.0" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <StackPane prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="134.0" fitWidth="317.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/SoICTLogo.png" />
+                     </image>
+                     <StackPane.margin>
+                        <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+                     </StackPane.margin>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <StackPane>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Là sản phẩm dùng để hiển thị thông tin của Viêt Nam về lễ hội văn hóa,nhân vật lịch sử,triều đại lịch sử ,địa điểm du lịch di tích lịch sử " textAlignment="CENTER" wrappingWidth="647.13671875">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
